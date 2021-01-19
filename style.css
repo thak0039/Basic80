@@ -6,8 +6,15 @@
     padding: 0;
 }
 
-p {
-    margin-top: 10px;
+nav {
+    background-color: #302b2b;
+}
+
+.footerbar,
+.Cat_and_img,
+.navrow {
+    display: inline-block;
+    width: 100%;
 }
 
 h3 {
@@ -54,12 +61,11 @@ a {
 }
 
 .Main_titile {
-    font-size: 40px;
+    font-size: 36px;
 }
 
-.navMenu {
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+.cmpname {
+    padding: 30px 0;
 }
 
 .h2cat {
@@ -100,16 +106,13 @@ a {
 }
 
 .textmenu {
-    padding: 15px 0;
+    margin: 30px 0;
+    background-color: black;
+    padding: 20px 0;
 }
 
 .textmenu>a {
     padding: 0 10px;
-}
-
-.image-div {
-    border: 1px solid lightgray;
-    padding: 0.5rem;
 }
 
 .proRow {
@@ -118,6 +121,31 @@ a {
 
 .CatRow {
     width: 29%;
+    margin-left: 2rem;
+}
+
+.row32px h3 {
+    margin: 5px 0;
+}
+
+.row32px,
+.row290 {
+    margin-top: 40px;
+    display: inline-block;
+    padding: 0px 0 30px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+
+.pic4 {
+    width: 24%;
+}
+
+.pic1,
+.pic2,
+.pic3 {
+    width: 24%;
+    margin-right: 10px;
 }
 
 .pro1,
@@ -125,16 +153,25 @@ a {
     width: 48%;
 }
 
-.small-img {
-    margin: 10px 10px 10px 0;
-}
-
 .redmore {
     font-weight: bold;
+    font-size: 10px;
     margin-top: 10px;
 }
 
-.footerbar {
-    border-top: 1px solid lightgray;
-    width: 100%;
+footer {
+    background-color: black;
+}
+
+.div32 {
+    margin: 0 5px 5px 0;
+}
+
+.div290 {
+    margin: 20px 25px 20px 0;
+}
+
+.img-290 {
+    border: 1px solid lightgrey;
+    padding: 5px;
 }
